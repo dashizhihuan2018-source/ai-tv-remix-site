@@ -65,9 +65,9 @@
     poster.addEventListener('load', () => {
       open.href = media.poster;
       download.href = media.poster;
-      open.dataset.caption = 'AI爆改电视 · 宣传海报 · 设计候选待审';
-      poster.alt = 'AI爆改电视竖版宣传海报：真实首页画面与客厅合成展示，设计候选待审。';
-      download.innerHTML = '保存候选海报 <span aria-hidden="true">↓</span>';
+      open.dataset.caption = 'AI爆改电视 · 宣传海报';
+      poster.alt = 'AI爆改电视竖版宣传海报：无广告、全网通、免费看，附公开网站二维码。';
+      download.innerHTML = '保存宣传海报 <span aria-hidden="true">↓</span>';
       placeholder.hidden = true;
       ready.hidden = false;
     }, { once: true });
