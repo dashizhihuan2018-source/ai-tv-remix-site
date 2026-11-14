@@ -3,24 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AI爆改电视成果与版本记录。ArtHome art20 两次重启、覆盖恢复与停进程测试；静观 V2.4 已装并有用户可用反馈，语音测试尚未通过。">
+  <meta name="description" content="AI爆改电视产品版本：艺术首页、静观双风格选片与新增智能音箱语音控制。">
   <meta name="theme-color" content="#123e3d">
-  <title>成果与版本 — AI爆改电视</title>
+  <title>产品与版本 — AI爆改电视</title>
   <link rel="icon" href="public/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="site.css?v=voice-20261115">
 </head>
 <body>
   <a class="skip" href="#main">跳到正文</a>
   <header class="subpage-header"><div class="nav wrap"><a class="brand" href="index.html"><img src="public/mark.svg" width="34" height="34" alt=""><span>AI爆改电视<small>by Nankong</small></span></a><nav aria-label="主导航"><a href="index.html#experience">产品体验</a><a href="index.html#film">演示</a><a href="experience.html">爆改经验</a><a class="nav-cta contact-link" href="mailto:archseuyang@163.com?subject=AI%E7%88%86%E6%94%B9%E7%94%B5%E8%A7%86%E4%BA%A4%E6%B5%81">联系我 <span aria-hidden="true">↗</span></a></nav></div></header>
-  <main id="main"><div class="subpage-header"><div class="wrap"><div class="page-title"><p class="eyebrow">FIELD NOTES / 2026.11.14</p><h1>每一步变化，<br>都有真实的来处。</h1><p>记录已安装的版本、完成的验证，以及仍待继续的工作。<br>所有实机结论仅针对当前这台创维 A6F Ultra。</p></div></div></div>
-    <div class="doc-layout wrap"><nav class="doc-nav" aria-label="成果目录"><a href="#current">实装版本</a><a href="#arthome">ArtHome 成果</a><a href="#jingguan">静观 TV 成果</a><a href="#visuals">展示画面说明</a><a href="#next">仍待验证</a></nav><div class="doc-content">
-      <section id="current"><h2>当前装在电视上的版本。</h2><table class="version-table"><caption>状态截至 2026 年 11 月 14 日，按本次实机记录整理。</caption><thead><tr><th scope="col">模块</th><th scope="col">版本</th><th scope="col">状态</th></tr></thead><tbody><tr><th scope="row">ArtHome</th><td>3.4-art.20 / code33</td><td>已安装；当前艺术首页及保活验证</td></tr><tr><th scope="row">静观 TV</th><td>V2.4.0 / code103</td><td>已安装；4K首页检查与用户可用反馈</td></tr></tbody></table></section>
-      <section id="arthome"><span class="pill">已安装 · ArtHome art20</span><h2>从艺术首页，到重启保留。</h2><h3>当前首页</h3><p>明亮睡莲、思源宋体「天问研究所」、对齐的顶栏、居中时钟、完整阳历与农历、固定莫奈摘译，以及三枚圆润透明线条入口。此前百句十分钟轮换已停用。</p><h3>两次真实重启</h3><p>两次 art20 实际重启后，在未手动执行首页唤起前，首帧自动出现 ArtHome。首页恢复相关设置均有回读；本页不公开设备维护细节。</p><h3>主页设置被覆盖后的恢复</h3><p>将主页路由恢复为原厂值后，本机观察约 <strong>3.18 秒</strong>自动恢复到 ArtHome。该结果不表示首页永远不会被其他软件或系统更新改写。</p><h3>观看与首页恢复分别验证</h3><p>在移动电视播放中停止首页进程，观察 <strong>7 秒</strong>未抢走播放。随后按系统 Home 键，<strong>3 秒内</strong>返回新首页。</p><p>首页闲置五分钟才进入原生艺术屏；此前 310 秒播放未被打断。移动电视入口已图像核验进入免费甘肃卫视，不作全频道或全部影片免费的宣传。</p><h3>自动化测试</h3><p><strong>326 项 JVM 测试通过。</strong>代码测试、实机运行和后续长期使用是不同层面的证据；此记录不延伸为全机型兼容或永久保活保证。</p></section>
-      <section id="jingguan"><span class="pill">已安装 · 静观 V2.4.0</span><h2>把选片，交给遥控器。</h2><p>静观V2.4.0已在真实电视保留数据更新，4K首页已检查，用户确认可以使用。154项JVM、22项本机原生回归与独立审查通过。此前V2.2完成遥控开播与局域网播放控制实测，新版逐项测试不直接沿用旧版结论。</p><p>新版布局、渐变和播放器已随包安装；更多、双向换肤焦点与新版一键首帧的逐项实体复核尚未全部完成。本网站采用 V2.4 已部署电视的实机截图，素材无私人观看历史。</p><div class="doc-notice"><p><strong>真人小爱语音尚未通过。</strong>语音控制不作为当前成果。GIF、录屏、OCR、海报工具已经从用户需求中取消，不作为静观 App 功能宣传。</p></div></section>
-      <section id="visuals"><h2>真实画面，与展示设计。</h2><p>首页首屏使用 <strong>art20 第二次重启后的实机截图</strong>，页面外层电视边框与支架是为官网制作的 CSS 展示装饰。ArtHome 细节区使用 art19 的高清真实截图，art20 沿用相同视觉，变化集中在保活逻辑。</p><p>静观新版图片与视频片段来自已部署V2.4电视的1080p实机截图，经过缩放剪辑；不展示私人观看记录。官网不重绘或生成不存在的界面作为实机证据。</p><p>介绍短片如由真实截图与动效合成，会在演示区明确标注“非连续操作实录”。海报属于宣传排版，功能口径以这里的实装状态为准。</p><p>中文主标题基于真实思源宋体 CN Medium 字体制作网页子集，并随附 <a href="public/fonts/OFL.txt">SIL Open Font License 1.1</a>。字体子集采用独立名称，作品与第三方界面内容的权利归各自权利人。</p></section>
-      <section id="next"><h2>继续做，也如实记录。</h2><ul><li><strong>静观 V2.4：</strong>已安装且用户确认一般可用；剩余逐项实体复核仍继续记录。</li><li><strong>小爱语音：</strong>真人测试尚未通过，不作为可用功能。</li><li><strong>其他机型：</strong>尚未适配，不沿用本机兼容性结论。</li><li><strong>长期运行：</strong>当前重启与恢复测试已完成，后续稳定性需继续观察。</li></ul><p>本页是截至上述日期的成果快照。设备版本更新后，应重新核实状态并更新展示。</p><p><a href="index.html#experience">回到真实界面</a> · <a href="guide.html">阅读安装与适配说明</a></p></section>
+  <main id="main"><div class="subpage-header"><div class="wrap"><div class="page-title"><p class="eyebrow">PRODUCT RELEASE / 2026.11.15</p><h1>看电视，<br>又简单了一点。</h1><p>艺术首页、静观选片、智能音箱语控。<br>把常用功能，放回最顺手的位置。</p></div></div></div>
+    <div class="doc-layout wrap"><nav class="doc-nav" aria-label="成果目录"><a href="#current">产品版本</a><a href="#arthome">艺术首页</a><a href="#jingguan">静观与语音</a><a href="#visuals">产品画面</a><a href="#next">家庭适配</a></nav><div class="doc-content">
+      <section id="current"><h2>当前产品版本。</h2><table class="version-table"><caption>2026 年 11 月 15 日更新</caption><thead><tr><th scope="col">模块</th><th scope="col">版本</th><th scope="col">产品能力</th></tr></thead><tbody><tr><th scope="row">ArtHome</th><td>3.4-art.20</td><td>艺术首页、常用入口、原生艺术屏</td></tr><tr><th scope="row">静观 TV</th><td>V2.4.0</td><td>精选封面、双风格界面、遥控选片与播放</td></tr><tr><th scope="row">音箱语音控制</th><td>1.0</td><td>说片名自动开播，日常无需电脑桥接</td></tr></tbody></table></section>
+      <section id="arthome"><span class="pill">ArtHome · 艺术首页</span><h2>打开电视，回到清爽首页。</h2><p>睡莲背景、时间日期与常用入口，让电视回归简单。移动电视、静观 TV、创维壁纸各有位置，左右选择、确认进入。</p><p>支持开机恢复与 Home 键返回；首页闲置五分钟后进入原生艺术屏。保留原厂观看应用和壁纸入口。</p></section>
+      <section id="jingguan"><span class="pill">静观 TV · V2.4.0</span><h2>想看什么，直接选，也可以直接说。</h2><p>全宽精选封面、清楚的文字层次和横向片单，让远距离选片更轻松。Apple 与 Netflix 两种风格使用相同内容，切换时保持观看习惯。</p><h3>新增智能音箱语音控制</h3><p>对小爱说<strong>“电视播放繁花”</strong>，电视自动查找并切换播放。音箱直连家庭电视，无需 Mac 常驻桥接，保留原生天气问答。</p><p><a href="guide.html#voice">查看语音使用说明</a></p></section>
+      <section id="visuals"><h2>看看真实的产品界面。</h2><p>首页与静观画面均来自已部署设备。电视边框和支架用于网页展示；9秒短片以实机截图剪辑呈现首页、直播、选片与壁纸。</p><p>中文标题采用思源宋体字体子集，许可见<a href="public/fonts/OFL.txt">SIL Open Font License</a>。</p></section>
+      <section id="next"><h2>为每个家庭，做好适配。</h2><p>当前方案适配创维 A6F Ultra；语音选片搭配已适配的 OH2P 1.62.2 音箱。不同品牌、系统和音箱型号，按设备分别配置。</p><p>了解你家电视是否适合这套体验，欢迎<a href="mailto:archseuyang@163.com?subject=AI%E7%88%86%E6%94%B9%E7%94%B5%E8%A7%86%E9%80%82%E9%85%8D">联系 Nankong</a>。</p></section>
     </div></div>
   </main>
-  <footer class="footer wrap"><div><a class="brand" href="index.html">AI爆改电视 <small>by Nankong</small></a><p>© 2026 Nankong。个人设备改造项目。<br>非创维官方产品；第三方品牌、作品及内容权利归各自权利人所有。</p></div><div class="footer-links"><a href="index.html">产品首页</a><a href="guide.html">安装与适配</a><a href="experience.html">爆改经验</a><a href="public/fonts/OFL.txt">字体许可</a><a href="experience.html#license">MIT 与署名</a><a class="contact-link" href="mailto:archseuyang@163.com?subject=AI%E7%88%86%E6%94%B9%E7%94%B5%E8%A7%86%E4%BA%A4%E6%B5%81">联系 Nankong</a></div></footer>
+  <footer class="footer wrap"><div><a class="brand" href="index.html">AI爆改电视 <small>by Nankong</small></a><p>© 2026 Nankong。为家庭电视设计的观看体验。<br>非创维官方产品；第三方品牌、作品及内容权利归各自权利人所有。</p></div><div class="footer-links"><a href="index.html">产品首页</a><a href="guide.html">安装与适配</a><a href="experience.html">爆改经验</a><a href="public/fonts/OFL.txt">字体许可</a><a href="experience.html#license">MIT 与署名</a><a class="contact-link" href="mailto:archseuyang@163.com?subject=AI%E7%88%86%E6%94%B9%E7%94%B5%E8%A7%86%E4%BA%A4%E6%B5%81">联系 Nankong</a></div></footer>
 </body>
 </html>
