@@ -1,0 +1,23 @@
+{
+  "video": {
+    "sha256": "194828e46d3aef99f5acf3c0cdb47476b7879c265a3f114492f01eedaba76578",
+    "width": 1920,
+    "height": 1080,
+    "seconds": 9.0,
+    "audio_tracks": 1,
+    "edition": "narrated",
+    "presentation": "Installed real TV screenshot edit, including Jingguan V2.4; not a continuous operation screen recording"
+  },
+  "cover": {
+    "sha256": "de7d4bb41087c7c23722a2138b566e2b07b703881acbc97634b7ba1516c92c17",
+    "width": 1920,
+    "height": 1080
+  },
+  "poster": {
+    "sha256": "f4d987549061b21d11351f07b1e768e5826a7b2e49c0633ab6532f02b9dff195",
+    "width": 1080,
+    "height": 1920,
+    "status": "Design candidate; pending review",
+    "presentation": "Genuine UI pixels; television exterior and room are AI illustration"
+  }
+}
