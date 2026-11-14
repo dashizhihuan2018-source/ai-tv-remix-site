@@ -8,9 +8,9 @@
   <title>AI爆改电视 — 无广告、全网通、免费看</title>
   <link rel="icon" href="public/mark.svg" type="image/svg+xml">
   <link rel="preload" href="public/fonts/tv-serif-medium.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="site.css">
-  <script src="media-manifest.js" defer></script>
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="site.css?v=autoplay-v2">
+  <script src="media-manifest.js?v=autoplay-v2" defer></script>
+  <script src="app.js?v=autoplay-v2" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">跳到正文</a>
@@ -70,13 +70,13 @@
       <div class="section-heading spread"><div><p class="eyebrow">看看这次改了什么 / IN PICTURE</p><h2 id="film-title">首页、直播、选片、壁纸。<br>看一遍，就明白。</h2></div><p class="section-intro">四个常用场景，<br>已部署实机呈现。</p></div>
       <div class="film-layout">
         <div class="film-main">
-          <div class="film-stage" id="film-stage"><div id="film-placeholder"><img src="public/images/art-home-art20.webp" width="1920" height="1080" loading="lazy" alt="演示区静态预览：ArtHome art20 实机首页。"><span class="preview-label">实机截图预览</span></div><video id="promo-video" controls playsinline preload="none" poster="public/images/art-home-art20.webp" aria-label="AI爆改电视产品演示短片" hidden></video></div>
-          <div class="film-caption"><p><strong id="film-name">真实界面 · 演示预览</strong><span id="film-description">演示短片制作中，当前展示实机截图。</span></p><a id="video-download" class="text-link" hidden download>下载9秒短片 <span aria-hidden="true">↓</span></a></div>
+          <div class="film-stage" id="film-stage"><div id="film-placeholder" hidden><img src="public/images/art-home-art20.webp" width="1920" height="1080" loading="lazy" alt="演示区静态预览：ArtHome art20 实机首页。"><span class="preview-label">实机截图预览</span></div><video id="promo-video" controls autoplay muted loop playsinline webkit-playsinline preload="auto" src="public/media/ai-tv-remix-autoplay-v2.mp4" poster="public/images/art-home-art20.webp" aria-label="AI爆改电视9秒实机视频，默认静音自动播放"></video></div>
+          <div class="film-caption"><p><strong id="film-name">AI爆改电视 · 9秒实机短片</strong><span id="film-description">自动播放 · 点击开启配音</span></p><button id="video-sound" class="button dark video-sound" type="button" aria-pressed="false" hidden>开启配音</button><a id="video-download" class="text-link" href="public/media/ai-tv-remix-promo.mp4" download>下载高清短片 <span aria-hidden="true">↓</span></a></div>
           <p class="fine-print">9秒短片采用已部署的首页、直播、静观TV与创维壁纸实机截图剪辑，非连续操作录屏。具体功能与适配范围见成果记录。</p>
         </div>
         <aside class="poster-column"><p class="module-label">项目海报 <span>POSTER</span></p><div id="poster-placeholder" class="poster-note"><span class="poster-symbol" aria-hidden="true">看</span><h3>首页清爽，<br>直播直达。</h3><p>竖版宣传海报制作中。<br>完成后在这里查看与保存。</p></div><figure id="poster-ready" hidden><a id="poster-open" class="image-zoom" data-caption="AI爆改电视 · 产品宣传海报"><img id="promo-poster" width="1080" height="1920" loading="lazy" alt="AI爆改电视竖版产品宣传海报。"></a><figcaption><a id="poster-download" class="text-link" download>保存宣传海报 <span aria-hidden="true">↓</span></a></figcaption></figure></aside>
       </div>
-      <noscript><p class="noscript-note">真实截图与全部说明可直接浏览。演示播放器与海报的自动装载需要 JavaScript。</p></noscript>
+      <noscript><p class="noscript-note">真实截图与全部说明可直接浏览。视频可直接播放；配音按钮与海报的自动装载需要 JavaScript。</p></noscript>
     </section>
 
     <section class="adaptation wrap" id="install" aria-labelledby="install-title"><div><p class="eyebrow">从你的设备开始 / BEFORE YOU START</p><h2 id="install-title">先了解适配，<br>再开始改造。</h2><p>这是一个基于自有电视的改造实践项目。<br>目前验证设备为创维 A6F Ultra，其他型号需要单独适配。</p></div><div class="adaptation-right"><span class="pill">已验证 · 创维 A6F Ultra</span><h3>安装前，先保留原有设置。</h3><p>核对设备与系统、备份原有设置、分开验证首页与观看体验，再检查重启表现。当前页面不提供未经适配的通用安装包。</p><a class="button dark" href="guide.html">阅读安装与适配说明 <span aria-hidden="true">↗</span></a></div></section>

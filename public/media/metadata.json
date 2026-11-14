@@ -19,5 +19,14 @@
     "height": 1920,
     "status": "Updated promotional artwork with public website QR",
     "presentation": "Genuine UI pixels; television exterior and room are AI illustration"
+  },
+  "preview": {
+    "sha256": "f008bc90ad41612bc26eb235e039f22f740ca06afc31bcca8e3760164d53315c",
+    "bytes": 1234869,
+    "width": 1280,
+    "height": 720,
+    "seconds": 9,
+    "source": "Same actual-TV 9-second edit; full-HD master retained for download",
+    "audio": "Original master AAC packets copied without re-encoding"
   }
 }

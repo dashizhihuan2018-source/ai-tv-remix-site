@@ -343,3 +343,6 @@ h1 em { font-style: normal; color: var(--mint); }
 }
 
 .contact-email { overflow-wrap: anywhere; }
+
+.film-caption { flex-wrap: wrap; }
+.video-sound { border: 0; padding: 10px 16px; font-size: 12px; }

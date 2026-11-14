@@ -8,5 +8,7 @@
   "copyright": "Nankong",
   "hosting": "GitHub Pages",
   "poster_qr": "https://dashizhihuan2018-source.github.io/ai-tv-remix-site/",
-  "poster_sha256": "7d6c00191f49dd085c2526dd3a7889ba3b044dd296044cafe8378e3912b71c17"
+  "poster_sha256": "7d6c00191f49dd085c2526dd3a7889ba3b044dd296044cafe8378e3912b71c17",
+  "autoplay": "muted inline loop; click to enable original narration",
+  "preview_sha256": "f008bc90ad41612bc26eb235e039f22f740ca06afc31bcca8e3760164d53315c"
 }
