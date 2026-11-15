@@ -1,16 +1,16 @@
 {
-  "version": "V1.1.0-speaker-voice",
+  "version": "V1.2.0-catalogue-11s",
   "date": "2026-11-15",
   "site": "https://dashizhihuan2018-source.github.io/ai-tv-remix-site/",
-  "jingguan": "V2.4.0",
-  "video_sha256": "194828e46d3aef99f5acf3c0cdb47476b7879c265a3f114492f01eedaba76578",
-  "video_seconds": 9,
+  "jingguan": "V2.5.1",
+  "video_sha256": "4c76d7c0b032677fbc67752b9352ee4400e6e39d384e30781efbc45a7b7ac0da",
+  "video_seconds": 11,
   "copyright": "Nankong",
   "hosting": "GitHub Pages",
   "poster_qr": "https://dashizhihuan2018-source.github.io/ai-tv-remix-site/",
   "poster_sha256": "7d6c00191f49dd085c2526dd3a7889ba3b044dd296044cafe8378e3912b71c17",
   "autoplay": "muted inline loop; click to enable original narration",
-  "preview_sha256": "f008bc90ad41612bc26eb235e039f22f740ca06afc31bcca8e3760164d53315c",
+  "preview_sha256": "69abd27b0254dabe91afb67e0c82bf55740c24bad4e1fc13d6f3e1f0eabdfdb6",
   "voice": {
     "version": "1.0",
     "features": [

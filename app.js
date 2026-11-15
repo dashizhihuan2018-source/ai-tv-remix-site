@@ -57,7 +57,7 @@
       placeholder.hidden = true;
       video.hidden = false;
       sound.hidden = !media.narrated;
-      document.getElementById('film-name').textContent = 'AI爆改电视 · 9秒实机短片';
+      document.getElementById('film-name').textContent = 'AI爆改电视 · 11秒实机短片';
       description.textContent = '自动播放 · PDFMaster 同款女声，点击开启配音';
       syncSound();
       autoPlay();

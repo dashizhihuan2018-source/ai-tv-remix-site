@@ -1,12 +1,29 @@
 {
   "video": {
-    "sha256": "194828e46d3aef99f5acf3c0cdb47476b7879c265a3f114492f01eedaba76578",
+    "sha256": "4c76d7c0b032677fbc67752b9352ee4400e6e39d384e30781efbc45a7b7ac0da",
     "width": 1920,
     "height": 1080,
-    "seconds": 9.0,
+    "seconds": 11.0,
     "audio_tracks": 1,
     "edition": "narrated",
-    "presentation": "Installed real TV screenshot edit, including Jingguan V2.4; not a continuous operation screen recording"
+    "presentation": "Installed real TV screenshot edit, including Jingguan V2.5.1 movie and series catalogues; not continuous screen recording",
+    "fast_sequences": {
+      "movie": {
+        "seconds": 1,
+        "images": 5,
+        "frames_per_image": 6
+      },
+      "series": {
+        "seconds": 1,
+        "images": 5,
+        "frames_per_image": 6
+      },
+      "wallpaper": {
+        "seconds": 1,
+        "images": 5,
+        "frames_per_image": 6
+      }
+    }
   },
   "cover": {
     "sha256": "de7d4bb41087c7c23722a2138b566e2b07b703881acbc97634b7ba1516c92c17",
@@ -21,12 +38,12 @@
     "presentation": "Genuine UI pixels; television exterior and room are AI illustration"
   },
   "preview": {
-    "sha256": "f008bc90ad41612bc26eb235e039f22f740ca06afc31bcca8e3760164d53315c",
-    "bytes": 1234869,
+    "sha256": "69abd27b0254dabe91afb67e0c82bf55740c24bad4e1fc13d6f3e1f0eabdfdb6",
+    "bytes": 3004728,
     "width": 1280,
     "height": 720,
-    "seconds": 9,
-    "source": "Same actual-TV 9-second edit; full-HD master retained for download",
+    "seconds": 11,
+    "source": "Same 11-second real-TV edit; full-HD master retained for download",
     "audio": "Original master AAC packets copied without re-encoding"
   }
 }
